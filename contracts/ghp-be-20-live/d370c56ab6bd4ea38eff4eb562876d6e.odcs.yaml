@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: DataContract
+id: ghp-be-20-live-222b253ac9e34dd5a306ea944a0bd40f
+version: 1.0.0
+status: active
+name: GHP-BE-20 live integration test contract
+team:
+  id: ghp-be-20-live-integration-test-producer
+schema:
+  - name: widgets
+    physicalType: table
+    properties:
+      - name: widget_id
+        logicalType: string
+        physicalType: varchar(64)
+        required: true
