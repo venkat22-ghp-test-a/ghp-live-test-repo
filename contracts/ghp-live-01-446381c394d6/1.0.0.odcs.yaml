@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: DataContract
+id: ghp-live-01-446381c394d6
+version: 1.0.0
+status: active
+name: GHP-LIVE-01 live acceptance test contract
+team:
+  id: venkat22-live-producer
+schema:
+  - name: widgets
+    physicalType: table
+    properties:
+      - name: widget_id
+        logicalType: string
+        physicalType: varchar(64)
+        required: true
