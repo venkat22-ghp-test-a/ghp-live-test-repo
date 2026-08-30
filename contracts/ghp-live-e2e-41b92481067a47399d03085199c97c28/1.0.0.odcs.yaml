@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: DataContract
+id: ghp-live-e2e-41b92481067a47399d03085199c97c28
+version: 1.0.0
+status: active
+name: GHP live E2E producer-flow contract
+team:
+  id: ghp-be-20-live-integration-test-producer
+schema:
+  - name: widgets
+    physicalType: table
+    properties:
+      - name: widget_id
+        logicalType: string
+        physicalType: varchar(64)
+        required: true
